@@ -1,0 +1,10 @@
+{
+    "name": "servermanage",
+    "description": "A helpful GUI to ease the process of server management",
+    "version": "1.0.0",
+    "main": "serverGUI.js",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/Zakhersas/serverGUI.git"
+      }
+  }
