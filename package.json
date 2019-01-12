@@ -2,9 +2,16 @@
     "name": "servermanage",
     "description": "A helpful GUI to ease the process of server management",
     "version": "1.0.0",
-    "main": "serverGUI.js",
+    "license": "MIT",
     "repository": {
         "type": "git",
         "url": "https://github.com/Zakhersas/serverGUI.git"
-      }
-  }
+    },
+    "bin": {
+        "outside": "bin/outside"
+    },
+    "dependencies": {
+        "fs": "0.0.1-security",
+        "minimist": "^1.2.0"
+    }
+}
